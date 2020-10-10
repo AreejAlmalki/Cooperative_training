@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>التدريب التعاوني </name>
+    <description>
+
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+
+    <platform name="android">
+    <icon density="ldpi" src="res/icon/android/ldpi.png"/>
+    <icon density="mdpi" src="res/icon/android/mdpi.png"/>
+    <icon density="hdpi" src="res/icon/android/hdpi.png"/>
+    <icon density="xhdpi" src="res/icon/android/xhdpi.png"/>
+    <icon density="xxhdpi" src="res/icon/android/xxhdpi.png"/>
+    <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png"/>
+     <!--  Portrait  -->
+
+       <!-- you can use any density that exists in the Android project -->
+
+       <splash density="ldpi" src="res/icon1/android/ldpi.png"/>
+       <splash density="mdpi" src="res/icon1/android/mdpi.png"/>
+       <splash density="hdpi" src="res/icon1/android/hdpi.png"/>
+       <splash density="xhdpi" src="res/icon1/android/xhdpi.png"/>
+       <splash density="xxhdpi" src="res/icon1/android/xxhdpi.png"/>
+       <splash density="xxxhdpi" src="res/icon1/android/xxxhdpi.png"/>
+
+</platform>
+
+<preference name="SplashScreenDelay" value="2000" />
+<preference name="SplashScreen" value="screen" />
+
+  <plugin name="cordova-plugin-splashscreen" source="npm" />
+  <plugin spec="https://github.com/apache/cordova-plugin-splashscreen" source="git" />
+  <plugin name="cordova-plugin-whitelist" source="npm" />
+  <plugin name="cordova-plugin-x-socialsharing" source="npm" />
+  <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+  <plugin spec="https://github.com/floatinghotpot/cordova-admob-pro" source="git" />
+  <plugin name="cordova-plugin-network-information" source="npm" />
+  <plugin name="cordova-universal-clipboard" source="npm"/>
+  <plugin name="phonegap-plugin-barcodescanner" source="npm"/>
+  <plugin name="cordova-plugin-x-toast" />
+
+
+    </widget>
